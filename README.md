@@ -24,27 +24,6 @@ This repository implements a Grammatical Error Correction (GEC) system using pre
 
 ---
 
-## Repository layout
-
-```
-.
-├─ data/
-│  ├─ train.m2                # provided M2 training file
-│  ├─ dev.m2                  # optional dev file
-│  └─ test_for_kaggle.csv     # optional test CSV (has 'source' col)
-├─ src/
-│  ├─ bart_gec.py             # BART + LoRA script (training, eval, inference)
-│  ├─ t5_gec.py               # T5 + LoRA script (training, eval, inference)
-│  ├─ m2_parser.py            # M2 parsing utilities (or integrated in scripts)
-│  └─ utils.py                # helpers (metrics, saving metadata)
-├─ outputs/
-│  └─ checkpoints/            # model checkpoints and saved adapters
-├─ README.md                  # this file
-└─ requirements.txt           # exact python packages/versions to install
-```
-
----
-
 ## Quick start
 
 1. Create virtual environment and install requirements:
