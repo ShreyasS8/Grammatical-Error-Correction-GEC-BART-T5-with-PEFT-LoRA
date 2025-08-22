@@ -252,7 +252,6 @@ python src/t5_gec.py \
 
 ## Contact / license
 
-* Author / entry: **2024AIZ8309** — replace with your name/ID when publishing.
 * License: choose a license for your repo (e.g., MIT). Add `LICENSE` file if desired.
 
 ---
